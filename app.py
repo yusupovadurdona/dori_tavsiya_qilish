@@ -43,4 +43,4 @@ features = np.array([[symboling, fueltype_map[fueltype], aspiration_map[aspirati
                       compressionratio, horsepower, peakrpm, citympg, highwaympg]])
 predicted_price = model.predict(features)
 
-st.subheader(f"Mashina Narxi Bashorati: {predicted_price[0]:,.2f} so'm")
+st.subheader(f"Mashina Narxi Bashorati: {predicted_price[0]:,.2f} dollar")
